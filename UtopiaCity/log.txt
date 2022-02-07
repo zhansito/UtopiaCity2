@@ -45,3 +45,455 @@ Routing:/
 Index for Home
 Routing:/
 Index for Home
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: d:\V\private\_epam\UC2\UtopiaCityV2\UtopiaCity
+Routing:/
+Routing:/
+Index for Home
+Index for Home
+Routing:/css/site.css
+Routing:/js/site.js
+Routing:/lib/jquery/dist/jquery.min.js
+Routing:/lib/bootstrap/dist/css/bootstrap.min.css
+Routing:/lib/bootstrap/dist/js/bootstrap.bundle.min.js
+Routing:/favicon.ico
+Routing:/BusRoute
+The view 'ListBusRouteView' was not found. Searched locations: /Views/BusRoute/ListBusRouteView.cshtml, /Views/Shared/ListBusRouteView.cshtml
+An unhandled exception has occurred while executing the request.
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: d:\V\private\_epam\UC2\UtopiaCityV2\UtopiaCity
+Routing:/
+Index for Home
+Routing:/BusRoute
+The view 'ListBusRouteView' was not found. Searched locations: /Views/BusRoute/ListBusRouteView.cshtml, /Views/Shared/ListBusRouteView.cshtml
+An unhandled exception has occurred while executing the request.
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: d:\V\private\_epam\UC2\UtopiaCityV2\UtopiaCity
+Routing:/
+Index for Home
+Routing:/lib/jquery/dist/jquery.min.js
+Routing:/js/site.js
+Routing:/lib/bootstrap/dist/js/bootstrap.bundle.min.js
+Routing:/css/site.css
+Routing:/lib/bootstrap/dist/css/bootstrap.min.css
+Routing:/EmergencyReport
+Routing:/FireDepartment
+Routing:/
+Index for Home
+Routing:/BusRoute
+The view 'ListBusRouteView' was not found. Searched locations: /Views/BusRoute/ListBusRouteView.cshtml, /Views/Shared/ListBusRouteView.cshtml
+An unhandled exception has occurred while executing the request.
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: d:\V\private\_epam\UC2\UtopiaCityV2\UtopiaCity
+Routing:/
+Index for Home
+Routing:/BusRoute
+The view 'ListBusRouteView' was not found. Searched locations: /Views/BusRoute/ListBusRouteView.cshtml, /Views/Shared/ListBusRouteView.cshtml
+An unhandled exception has occurred while executing the request.
+Application started. Press Ctrl+C to shut down.
+Routing:/
+Hosting environment: Development
+Content root path: d:\V\private\_epam\UC2\UtopiaCityV2\UtopiaCity
+Index for Home
+Routing:/EmergencyReport
+Routing:/BusRoute
+The view 'ListBusRouteView' was not found. Searched locations: /Views/BusRoute/ListBusRouteView.cshtml, /Views/Shared/ListBusRouteView.cshtml
+An unhandled exception has occurred while executing the request.
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: d:\V\private\_epam\UC2\UtopiaCityV2\UtopiaCity
+Routing:/
+Index for Home
+Routing:/BusRoute
+The view 'ListBusRouteView' was not found. Searched locations: /Views/BusRoute/ListBusRouteView.cshtml, /Views/Shared/ListBusRouteView.cshtml
+An unhandled exception has occurred while executing the request.
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: d:\V\private\_epam\UC2\UtopiaCityV2\UtopiaCity
+Routing:/
+Index for Home
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: d:\V\private\_epam\UC2\UtopiaCityV2\UtopiaCity
+Routing:/
+Index for Home
+Routing:/BusRoute
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: d:\V\private\_epam\UC2\UtopiaCityV2\UtopiaCity
+Routing:/
+Index for Home
+Routing:/css/site.css
+Routing:/lib/jquery/dist/jquery.min.js
+Routing:/lib/bootstrap/dist/css/bootstrap.min.css
+Routing:/js/site.js
+Routing:/lib/bootstrap/dist/js/bootstrap.bundle.min.js
+Routing:/BusRoute
+Routing:/BusRoute/Create
+The view 'CreateBusRouteView' was not found. Searched locations: /Views/BusRoute/CreateBusRouteView.cshtml, /Views/Shared/CreateBusRouteView.cshtml
+An unhandled exception has occurred while executing the request.
+Routing:/BusRoute/Create
+The view 'CreateBusRouteView' was not found. Searched locations: /Views/BusRoute/CreateBusRouteView.cshtml, /Views/Shared/CreateBusRouteView.cshtml
+An unhandled exception has occurred while executing the request.
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: d:\V\private\_epam\UC2\UtopiaCityV2\UtopiaCity
+Routing:/
+Index for Home
+Routing:/BusRoute
+Routing:/BusRoute/Create
+Routing:/lib/jquery-validation/dist/jquery.validate.min.js
+Routing:/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js
+Routing:/BusRoute/CreateBusRouteView
+Routing:/BusRoute/CreateBusRouteView
+Routing:/BusRoute/Create
+Routing:/BusRoute/CreateBusRouteView
+Routing:/BusRoute/Create
+Routing:/BusRoute/CreateBusRouteView
+Routing:/BusRoute/Create
+Routing:/BusRoute/CreateBusRouteView
+Routing:/BusRoute/Create
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: d:\V\private\_epam\UC2\UtopiaCityV2\UtopiaCity
+Routing:/
+Index for Home
+Routing:/favicon.ico
+Routing:/BusRoute
+Routing:/BusRoute/Create
+Routing:/BusRoute/CreateBusRouteView
+Routing:/BusRoute/Create
+Routing:/BusRoute/CreateBusRouteView
+Routing:/BusRoute/CreateBusRouteView
+Routing:/BusRoute/Create
+Routing:/BusRoute/CreateBusRouteView
+Routing:/BusRoute/Create
+Routing:/EmergencyReport
+Routing:/EmergencyReport
+Routing:/EmergencyReport
+An error occurred using the connection to database 'aspnet-UtopiaCity-Database' on server '(localdb)\mssqllocaldb'.
+An error occurred using the connection to database 'aspnet-UtopiaCity-Database' on server '(localdb)\mssqllocaldb'.
+An exception occurred while iterating over the results of a query for context type 'UtopiaCity.Data.AppDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=19154; handshake=1070; 
+ ---> System.ComponentModel.Win32Exception (258): The wait operation timed out.
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:55b5e8ba-c5d7-4f2e-b464-0974cf18faa6
+Error Number:-2,State:0,Class:11
+An exception occurred while iterating over the results of a query for context type 'UtopiaCity.Data.AppDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=19154; handshake=1070; 
+ ---> System.ComponentModel.Win32Exception (258): The wait operation timed out.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ThrowExceptionAndWarning(Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at Microsoft.Data.SqlClient.TdsParser.ConsumePreLoginHandshake(Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean& marsCapable, Boolean& fedAuthRequired)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean withFailover, SqlAuthenticationMethod authType)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:55b5e8ba-c5d7-4f2e-b464-0974cf18faa6
+Error Number:-2,State:0,Class:11
+An unhandled exception has occurred while executing the request.
+An unhandled exception has occurred while executing the request.
+Routing:/EmergencyReport/Create
+Routing:/EmergencyReport/Create
+Routing:/EmergencyReport/Create
+Routing:/EmergencyReport/Create
+Routing:/EmergencyReport
+Routing:/EmergencyReport/Create
+Routing:/EmergencyReport/Create
+Routing:/EmergencyReport
+Routing:/EmergencyReport/Create
+Routing:/BusRoute
+Routing:/BusRoute/Create
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: d:\V\private\_epam\UC2\UtopiaCityV2\UtopiaCity
+Routing:/
+Index for Home
+Routing:/lib/bootstrap/dist/css/bootstrap.min.css
+Routing:/lib/bootstrap/dist/js/bootstrap.bundle.min.js
+Routing:/css/site.css
+Routing:/js/site.js
+Routing:/lib/jquery/dist/jquery.min.js
+Routing:/BusRoute
+Routing:/BusRoute/Create
+Routing:/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js
+Routing:/lib/jquery-validation/dist/jquery.validate.min.js
+Routing:/BusRoute/CreateBusRouteView
+Routing:/BusRoute/Create
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: d:\V\private\_epam\UC2\UtopiaCityV2\UtopiaCity
+Routing:/
+Index for Home
+Routing:/BusRoute
+Routing:/BusRoute/Create
+Routing:/BusRoute/CreateBusRouteView
+Routing:/BusRoute/Create
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: d:\V\private\_epam\UC2\UtopiaCityV2\UtopiaCity
+Routing:/
+Index for Home
+Routing:/EmergencyReport
+Routing:/EmergencyReport/Details/2
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: d:\V\private\_epam\UC2\UtopiaCityV2\UtopiaCity
+Routing:/
+Index for Home
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: d:\V\private\_epam\UC2\UtopiaCityV2\UtopiaCity
+Routing:/
+Index for Home
+Routing:/BusRoute
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Routing:/
+Content root path: d:\V\private\_epam\UC2\UtopiaCityV2\UtopiaCity
+Index for Home
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: d:\V\private\_epam\UC2\UtopiaCityV2\UtopiaCity
+Routing:/
+Index for Home
+Routing:/BusRoute
+Routing:/BusRoute/Create
+Routing:/BusRoute/CreateBusRouteView
+Routing:/BusRoute/Create
+Routing:/BusRoute/Details/647095ac-40cf-44a1-ab74-542713c881d6
+The view '~/Views/PublicTransport/DeatailsBusRouteView.cshtml' was not found. Searched locations: ~/Views/PublicTransport/DeatailsBusRouteView.cshtml
+An unhandled exception has occurred while executing the request.
+Routing:/BusRoute/Edit/647095ac-40cf-44a1-ab74-542713c881d6
+Routing:/BusRoute/Delete/647095ac-40cf-44a1-ab74-542713c881d6
+Routing:/BusRoute/DeleteBusRouteView
+Routing:/BusRoute/Delete/647095ac-40cf-44a1-ab74-542713c881d6
+Routing:/BusRoute/Details/647095ac-40cf-44a1-ab74-542713c881d6
+The view '~/Views/PublicTransport/DeatailsBusRouteView.cshtml' was not found. Searched locations: ~/Views/PublicTransport/DeatailsBusRouteView.cshtml
+An unhandled exception has occurred while executing the request.
+Routing:/BusRoute/Details/647095ac-40cf-44a1-ab74-542713c881d6
+The view '~/Views/PublicTransport/DeatailsBusRouteView.cshtml' was not found. Searched locations: ~/Views/PublicTransport/DeatailsBusRouteView.cshtml
+An unhandled exception has occurred while executing the request.
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: d:\V\private\_epam\UC2\UtopiaCityV2\UtopiaCity
+Routing:/
+Index for Home
+Routing:/EmergencyReport
+Routing:/EmergencyReport/Create
+Routing:/EmergencyReport/Create
+Routing:/EmergencyReport
+Routing:/BusRoute
+Routing:/BusRoute/Create
+Routing:/BusRoute/CreateBusRouteView
+Routing:/BusRoute/Create
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: d:\V\private\_epam\UC2\UtopiaCityV2\UtopiaCity
+Routing:/
+Index for Home
+Routing:/lib/bootstrap/dist/css/bootstrap.min.css
+Routing:/css/site.css
+Routing:/lib/jquery/dist/jquery.min.js
+Routing:/lib/bootstrap/dist/js/bootstrap.bundle.min.js
+Routing:/js/site.js
+Routing:/favicon.ico
+Routing:/BusRoute
+Routing:/BusRoute/Create
+Routing:/BusRoute/Create
+Routing:/lib/jquery-validation/dist/jquery.validate.min.js
+Routing:/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: d:\V\private\_epam\UC2\UtopiaCityV2\UtopiaCity
+Routing:/
+Index for Home
+Routing:/lib/jquery/dist/jquery.min.js
+Routing:/lib/bootstrap/dist/css/bootstrap.min.css
+Routing:/css/site.css
+Routing:/lib/bootstrap/dist/js/bootstrap.bundle.min.js
+Routing:/js/site.js
+Routing:/BusRoute
+Routing:/BusRoute/Create
+Routing:/lib/jquery-validation/dist/jquery.validate.min.js
+Routing:/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js
+Routing:/BusRoute/CreateBusRouteView
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: d:\V\private\_epam\UC2\UtopiaCityV2\UtopiaCity
+Routing:/
+Index for Home
+Routing:/js/site.js
+Routing:/css/site.css
+Routing:/lib/jquery/dist/jquery.min.js
+Routing:/lib/bootstrap/dist/css/bootstrap.min.css
+Routing:/lib/bootstrap/dist/js/bootstrap.bundle.min.js
+Routing:/BusRoute
+Routing:/lib/jquery/dist/jquery.min.js
+Routing:/BusRoute/Create
+Routing:/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js
+Routing:/lib/jquery-validation/dist/jquery.validate.min.js
+Routing:/BusRoute/CreateBusRouteView
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: d:\V\private\_epam\UC2\UtopiaCityV2\UtopiaCity
+Routing:/
+Index for Home
+Routing:/BusRoute
+Routing:/BusRoute/Create
+The view 'CreateBusRouteView' was not found. Searched locations: /Views/BusRoute/CreateBusRouteView.cshtml, /Views/Shared/CreateBusRouteView.cshtml
+An unhandled exception has occurred while executing the request.
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: d:\V\private\_epam\UC2\UtopiaCityV2\UtopiaCity
+Routing:/
+Index for Home
+Routing:/BusRoute
+The view 'ListBusRouteView' was not found. Searched locations: /Views/BusRoute/ListBusRouteView.cshtml, /Views/Shared/ListBusRouteView.cshtml
+An unhandled exception has occurred while executing the request.
+Routing:/EmergencyReport
+Routing:/BusRoute
+The view 'ListBusRouteView' was not found. Searched locations: /Views/BusRoute/ListBusRouteView.cshtml, /Views/Shared/ListBusRouteView.cshtml
+An unhandled exception has occurred while executing the request.
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: d:\V\private\_epam\UC2\UtopiaCityV2\UtopiaCity
+Routing:/
+Index for Home
+Routing:/BusRoute
+The view 'ListBusRouteView' was not found. Searched locations: /Views/BusRoute/ListBusRouteView.cshtml, /Views/Shared/ListBusRouteView.cshtml
+An unhandled exception has occurred while executing the request.
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: d:\V\private\_epam\UC2\UtopiaCityV2\UtopiaCity
+Routing:/
+Index for Home
+Routing:/BusRoute
+The view 'ListBusRouteView' was not found. Searched locations: /Views/BusRoute/ListBusRouteView.cshtml, /Views/Shared/ListBusRouteView.cshtml
+An unhandled exception has occurred while executing the request.
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: d:\V\private\_epam\UC2\UtopiaCityV2\UtopiaCity
+Routing:/
+Index for Home
+Routing:/lib/jquery/dist/jquery.min.js
+Routing:/lib/bootstrap/dist/js/bootstrap.bundle.min.js
+Routing:/css/site.css
+Routing:/js/site.js
+Routing:/lib/bootstrap/dist/css/bootstrap.min.css
+Routing:/favicon.ico
+Routing:/BusRoute
+Routing:/BusRoute/Create
+Routing:/lib/jquery-validation/dist/jquery.validate.min.js
+Routing:/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js
+Routing:/BusRoute/CreateBusRouteView
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: d:\V\private\_epam\UC2\UtopiaCityV2\UtopiaCity
+Routing:/
+Index for Home
+Routing:/BusRoute
+Routing:/BusRoute/Create
+Routing:/BusRoute/CreateBusRouteView
+Routing:/BusRoute/Create
+Routing:/EmergencyReport
+Routing:/EmergencyReport/Create
+Routing:/EmergencyReport/Create
+Routing:/EmergencyReport/Create
+Routing:/EmergencyReport
+Routing:/BusRoute
+Routing:/BusRoute/Create
+Routing:/BusRoute/CreateBusRouteView
+Routing:/BusRoute/Create
+Routing:/BusRoute/Create
+Routing:/BusRoute/CreateBusRouteView
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: d:\V\private\_epam\UC2\UtopiaCityV2\UtopiaCity
+Routing:/
+Index for Home
+Routing:/BusRoute
+Routing:/BusRoute/Create
+Routing:/BusRoute/Create
+Routing:/BusRoute
+Routing:/BusRoute/Delete/647095ac-40cf-44a1-ab74-542713c881d6
+Routing:/BusRoute/DeleteBusRouteView
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: d:\V\private\_epam\UC2\UtopiaCityV2\UtopiaCity
+Routing:/
+Index for Home
+Routing:/BusRoute
+The view 'ListBusRouteView' was not found. Searched locations: /Views/BusRoute/ListBusRouteView.cshtml, /Views/Shared/ListBusRouteView.cshtml
+An unhandled exception has occurred while executing the request.
+Routing:/BusRoute
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: d:\V\private\_epam\UC2\UtopiaCityV2\UtopiaCity
+Routing:/
+Index for Home
+Routing:/BusRoute
+Routing:/BusRoute/Delete/647095ac-40cf-44a1-ab74-542713c881d6
+Routing:/BusRoute/Delete/647095ac-40cf-44a1-ab74-542713c881d6
+Routing:/BusRoute
+Routing:/BusRoute/Details/2e2f4e5d-e200-4c7e-98e0-0ac3f393e36b
+Routing:/BusRoute/Edit/2e2f4e5d-e200-4c7e-98e0-0ac3f393e36b
+Routing:/BusRoute/Edit/2e2f4e5d-e200-4c7e-98e0-0ac3f393e36b
+Routing:/BusRoute
+Routing:/BusRoute/Create
+Routing:/BusRoute/Create
+Routing:/BusRoute
+Routing:/BusRoute/Edit/09c2407a-6550-43df-988b-b08e4509b25d
+Routing:/BusRoute/Edit/2e2f4e5d-e200-4c7e-98e0-0ac3f393e36b
+Routing:/BusRoute/Edit/2e2f4e5d-e200-4c7e-98e0-0ac3f393e36b
+Routing:/BusRoute
+Application started. Press Ctrl+C to shut down.
+Hosting environment: Development
+Content root path: d:\V\private\_epam\UC2\UtopiaCityV2\UtopiaCity
+Routing:/
+Index for Home
+Routing:/lib/jquery/dist/jquery.min.js
+Routing:/js/site.js
+Routing:/css/site.css
+Routing:/lib/bootstrap/dist/css/bootstrap.min.css
+Routing:/lib/bootstrap/dist/js/bootstrap.bundle.min.js
+Routing:/BusRoute
+Routing:/BusRoute/Create
+Routing:/lib/jquery-validation/dist/jquery.validate.min.js
+Routing:/BusRoute/Create
+Routing:/BusRoute/Create
+Routing:/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js
+An unhandled exception has occurred while executing the request.
+Routing:/BusRoute

@@ -1,0 +1,49 @@
+﻿@model UtopiaCity.Models.PublicTransport.BusRoute
+
+@{
+    ViewData["Title"] = "EditBusRouteView";
+}
+
+<h1>EditBusRouteView</h1>
+
+<h4>BusRoute</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="StartStation" class="control-label"></label>
+                <input asp-for="StartStation" class="form-control" />
+                <span asp-validation-for="StartStation" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FinalStation" class="control-label"></label>
+                <input asp-for="FinalStation" class="form-control" />
+                <span asp-validation-for="FinalStation" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="BusStops" class="control-label"></label>
+                <input asp-for="BusStops" class="form-control" />
+                <span asp-validation-for="BusStops" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="BusQuantity" class="control-label"></label>
+                <input asp-for="BusQuantity" class="form-control" />
+                <span asp-validation-for="BusQuantity" class="text-danger"></span>
+            </div>
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

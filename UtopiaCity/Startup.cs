@@ -15,7 +15,9 @@ using UtopiaCity.Data;
 using UtopiaCity.Data.Providers;
 using UtopiaCity.Extensions;
 using UtopiaCity.Models.Emergency;
+using UtopiaCity.Models.PublicTransport;
 using UtopiaCity.Services.Emergency;
+using UtopiaCity.Services.PublicTransport;
 
 namespace UtopiaCity
 {
@@ -35,12 +37,14 @@ namespace UtopiaCity
 
             #region Services
 
-            services.AddSingleton<GenericDataProvider<EmergencyReport>, GenericDataProvider<EmergencyReport>>();
+            services.AddScoped<GenericDataProvider<EmergencyReport>, GenericDataProvider<EmergencyReport>>();
             services.AddScoped<EmergencyReportService, EmergencyReportService>();
+            services.AddScoped<GenericDataProvider<BusRoute>, GenericDataProvider<BusRoute>>();
+            services.AddScoped<BusRouteService, BusRouteService>();
 
-            #endregion
+      #endregion
 
-            services.Configure<AppConfig>(Configuration.GetSection(AppConfig.Name));
+      services.Configure<AppConfig>(Configuration.GetSection(AppConfig.Name));
 
             services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
                 .AddCookie(options =>
