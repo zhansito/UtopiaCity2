@@ -6,10 +6,8 @@ using UtopiaCity.Models.Common;
 
 namespace UtopiaCity.Models.PublicTransport
 {
-		public class BusRoute : BaseObject
+		public class BusStop : BaseObject
 		{
 				public string Name { get; set; }
-				public List<BusStop> BusStops { get; set; }
-				public int BusQuantity { get; set; }
 		}
 }

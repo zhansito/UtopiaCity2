@@ -1,38 +1,37 @@
-﻿using System;
-using System.Linq;
+﻿using System.Linq;
+using System.Threading.Tasks;
 using UtopiaCity.Common.Interfaces;
 using UtopiaCity.Data;
 using UtopiaCity.Models.PublicTransport;
 
 namespace UtopiaCity.Common.SubDbInitializers
 {
-		public class BusRouteInitializer : ISubDbInitializer
+		public class BusStopInitializer : ISubDbInitializer
 		{
 				public void ClearSet(AppDbContext context)
 				{
-						if (!context.BusRoute.Any())
+						if (!context.BusStop.Any())
 						{
 								return;
 						}
 
-						context.RemoveRange(context.BusRoute.ToList());
+						context.RemoveRange(context.BusStop.ToList());
 						context.SaveChanges();
 				}
 
 				public void InitializeSet(AppDbContext context)
 				{
-						if (context.BusRoute.Any())
+						if (context.BusStop.Any())
 						{
 								return;
 						}
 
-						var route = new BusRoute
+						var stop = new BusStop
 						{
-								Name	= "29",
-								BusQuantity = 7
+								Name = "KinderGarden Dauren"
 						};
 
-						context.AddRange(route);
+						context.AddRange(stop);
 						context.SaveChanges();
 				}
 		}

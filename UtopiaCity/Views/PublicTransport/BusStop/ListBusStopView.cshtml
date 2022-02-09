@@ -1,11 +1,11 @@
 ﻿@using UtopiaCity.TagHelpers
-@model IEnumerable<UtopiaCity.Models.PublicTransport.BusRoute>
+@model IEnumerable<UtopiaCity.Models.PublicTransport.BusStop>
 
 @{
-	ViewData["Title"] = "ListBusRouteView";
+	ViewData["Title"] = "ListBusStopView";
 }
 
-<h1>ListBusRouteView</h1>
+<h1>ListBusStopView</h1>
 
 <p>
 	<a asp-action="Create">Create New</a>
@@ -14,10 +14,7 @@
 	<thead>
 		<tr>
 			<th>
-				@Html.DisplayNameFor(model => model.BusStops)
-			</th>
-			<th>
-				@Html.DisplayNameFor(model => model.BusQuantity)
+				@Html.DisplayNameFor(model => model.Name)
 			</th>
 			<th></th>
 		</tr>
@@ -27,10 +24,7 @@
 		{
 			<tr>
 				<td>
-					@Html.DisplayFor(modelItem => item.BusStops)
-				</td>
-				<td>
-					@Html.DisplayFor(modelItem => item.BusQuantity)
+					@Html.DisplayFor(modelItem => item.Name)
 				</td>
 				<td>
 					<a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |

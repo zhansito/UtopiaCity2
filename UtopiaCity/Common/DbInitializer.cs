@@ -16,6 +16,7 @@ namespace UtopiaCity.Common
         {
             subDbInitializers.Add(new EmergencyReportInitializer());
             subDbInitializers.Add(new BusRouteInitializer());
+            subDbInitializers.Add(new BusStopInitializer());
         }
 
         public static void InitializeDb(AppDbContext context)

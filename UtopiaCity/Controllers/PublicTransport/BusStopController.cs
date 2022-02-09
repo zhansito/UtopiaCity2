@@ -1,7 +1,10 @@
-﻿using Microsoft.AspNetCore.Authorization;
+﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Options;
+using System;
+using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.Extensions.Options;
 using UtopiaCity.Common;
 using UtopiaCity.Filters;
 using UtopiaCity.Models.PublicTransport;
@@ -9,18 +12,16 @@ using UtopiaCity.Services.PublicTransport;
 
 namespace UtopiaCity.Controllers.PublicTransport
 {
-		//[Authorize]
 		[CookieFilter]
-		public class BusRouteController : BaseController
+		public class BusStopController : BaseController
 		{
-				public const string ContollerName = "BusRoute";
-
-				private readonly BusRouteService _busRouteService;
+				public const string ControllerName = "BusStop";
+				private readonly BusStopService _busStopService;
 				private readonly AppConfig _appConfig;
 
-				public BusRouteController(BusRouteService busRouteService, IOptions<AppConfig> options)
+				public BusStopController(BusStopService busStopService, IOptions<AppConfig> options)
 				{
-						_busRouteService = busRouteService;
+						_busStopService = busStopService;
 						_appConfig = options.Value;
 				}
 
@@ -28,7 +29,7 @@ namespace UtopiaCity.Controllers.PublicTransport
 				[ResponseCache(Location = ResponseCacheLocation.Any, Duration = 300)]
 				public async Task<ActionResult> Index()
 				{
-						return View("~/Views/PublicTransport/ListBusRouteView.cshtml", await _busRouteService.GetAllRoutesAsync());
+						return View("~/Views/PublicTransport/BusStop/ListBusStopView.cshtml", await _busStopService.GetAllRoutesAsync());
 				}
 
 				[HttpGet]
@@ -39,33 +40,33 @@ namespace UtopiaCity.Controllers.PublicTransport
 								return NotFound();
 						}
 
-						var route = _busRouteService.GetBusRoute(id);
+						var route = _busStopService.GetBusStop(id);
 						if (route == null)
 						{
 								NotFound();
 						}
 
-						return View("~/Views/PublicTransport/DetailsBusRouteView.cshtml", route);
+						return View("~/Views/PublicTransport/BusStop/DetailsBusStopView.cshtml", route);
 				}
 
 				[HttpGet]
 				public ActionResult Create()
 				{
-						return View("~/Views/PublicTransport/CreateBusRouteView.cshtml");
+						return View("~/Views/PublicTransport/BusStop/CreateBusStopView.cshtml");
 				}
 
 				[HttpPost]
 				[ValidateAntiForgeryToken]
-				public ActionResult Create(BusRoute busRoute)
+				public ActionResult Create(BusStop busStop)
 				{
 						if (!ModelState.IsValid)
 						{
-								return View("~/Views/PublicTransport/CreateBusRouteView.cshtml");
+								return View("~/Views/PublicTransport/BusStop/CreateBusStopView.cshtml");
 						}
 
 						return TryExecuteActionResult(() =>
 						{
-								_busRouteService.AddNewBusRoute(busRoute);
+								_busStopService.AddNewBusStop(busStop);
 								return RedirectToAction(nameof(Index));
 						});
 				}
@@ -78,32 +79,31 @@ namespace UtopiaCity.Controllers.PublicTransport
 								return NotFound();
 						}
 
-						var route = _busRouteService.GetBusRoute(id);
+						var route = _busStopService.GetBusStop(id);
 						if (route == null)
 						{
 								return NotFound();
 						}
 
-						return View("~/Views/PublicTransport/EditBusRouteView.cshtml", route);
+						return View("~/Views/PublicTransport/BusStop/EditBusStopView.cshtml", route);
 				}
 
 				[HttpPost]
 				[ValidateAntiForgeryToken]
-				public ActionResult Edit(string id, BusRoute busRoute)
+				public ActionResult Edit(string id, BusStop busStop)
 				{
-						if (id != busRoute.Id)
+						if (id != busStop.Id)
 						{
 								return NotFound();
 						}
 
 						if (ModelState.IsValid)
 						{
-								_busRouteService.UpdateBusRoute(busRoute);
+								_busStopService.UpdateBusStop(busStop);
 								return RedirectToAction(nameof(Index));
 						}
 
-						return View("~/Views/PublicTransport/EditBusRouteView.cshtml", busRoute);
-
+						return View("~/Views/PublicTransport/BusStop/EditBusStopView.cshtml");
 				}
 
 				[HttpGet]
@@ -114,13 +114,13 @@ namespace UtopiaCity.Controllers.PublicTransport
 								return NotFound();
 						}
 
-						var route = _busRouteService.GetBusRoute(id);
+						var route = _busStopService.GetBusStop(id);
 						if (route == null)
 						{
 								return NotFound();
 						}
 
-						return View("~/Views/PublicTransport/DeleteBusRouteView.cshtml", route);
+						return View("~/Views/PublicTransport/BusStop/DeleteBusStopView.cshtml", route);
 				}
 
 				[HttpPost]
@@ -128,13 +128,12 @@ namespace UtopiaCity.Controllers.PublicTransport
 				[ActionName("Delete")]
 				public ActionResult DeleteConfirmed(string id)
 				{
-						var route = _busRouteService.GetBusRoute(id);
-						if (route == null)
+						var route = _busStopService.GetBusStop(id);
+						if(route == null)
 						{
 								return NotFound();
 						}
-
-						_busRouteService.RemoveBusRoute(route);
+						_busStopService.RemoveBusStop(route);
 						return RedirectToAction(nameof(Index));
 				}
 		}
